@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1DEF422BCFCCB10036CC5D /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DEF412BCFCCB10036CC5D /* TabBar.m */; };
+		4C1DEF462BCFE2E70036CC5D /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DEF452BCFE2E70036CC5D /* Task.m */; };
+		4C1DEF4A2BCFE85F0036CC5D /* DetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DEF492BCFE85F0036CC5D /* DetailsVC.m */; };
 		4C4CB6FB2BCFB0E50043CD47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CB6FA2BCFB0E50043CD47 /* AppDelegate.m */; };
 		4C4CB6FE2BCFB0E50043CD47 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CB6FD2BCFB0E50043CD47 /* SceneDelegate.m */; };
 		4C4CB7012BCFB0E50043CD47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CB7002BCFB0E50043CD47 /* ViewController.m */; };
@@ -14,9 +17,20 @@
 		4C4CB7062BCFB0E90043CD47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CB7052BCFB0E90043CD47 /* Assets.xcassets */; };
 		4C4CB7092BCFB0E90043CD47 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CB7082BCFB0E90043CD47 /* Base */; };
 		4C4CB70C2BCFB0E90043CD47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CB70B2BCFB0E90043CD47 /* main.m */; };
+		4C4CB7202BCFB2F30043CD47 /* DoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CB71F2BCFB2F30043CD47 /* DoneVC.m */; };
+		4C4CB7232BCFB3030043CD47 /* ProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CB7222BCFB3030043CD47 /* ProgressVC.m */; };
+		4C84C9CE2BDB8CBC0089F155 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4C84C9CD2BDB8CBC0089F155 /* FLAnimatedImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C1DEF402BCFCCB10036CC5D /* TabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		4C1DEF412BCFCCB10036CC5D /* TabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		4C1DEF442BCFE2E70036CC5D /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		4C1DEF452BCFE2E70036CC5D /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		4C1DEF482BCFE85F0036CC5D /* DetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsVC.h; sourceTree = "<group>"; };
+		4C1DEF492BCFE85F0036CC5D /* DetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsVC.m; sourceTree = "<group>"; };
+		4C1DEF522BD08C350036CC5D /* TabBarDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarDelegate.m; sourceTree = "<group>"; };
+		4C1DEF532BD08C860036CC5D /* TabBarDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TabBarDelegate.h; path = Task/TabBarDelegate.h; sourceTree = "<group>"; };
 		4C4CB6F62BCFB0E50043CD47 /* TODO List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TODO List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4CB6F92BCFB0E50043CD47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C4CB6FA2BCFB0E50043CD47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +43,10 @@
 		4C4CB7082BCFB0E90043CD47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C4CB70A2BCFB0E90043CD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C4CB70B2BCFB0E90043CD47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C4CB71E2BCFB2F30043CD47 /* DoneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneVC.h; sourceTree = "<group>"; };
+		4C4CB71F2BCFB2F30043CD47 /* DoneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneVC.m; sourceTree = "<group>"; };
+		4C4CB7212BCFB3030043CD47 /* ProgressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressVC.h; sourceTree = "<group>"; };
+		4C4CB7222BCFB3030043CD47 /* ProgressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,12 +54,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C84C9CE2BDB8CBC0089F155 /* FLAnimatedImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C1DEF3F2BCFCC7B0036CC5D /* UITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4C1DEF402BCFCCB10036CC5D /* TabBar.h */,
+				4C1DEF412BCFCCB10036CC5D /* TabBar.m */,
+			);
+			path = UITabBar;
+			sourceTree = "<group>";
+		};
+		4C1DEF472BCFE79C0036CC5D /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				4C1DEF482BCFE85F0036CC5D /* DetailsVC.h */,
+				4C1DEF492BCFE85F0036CC5D /* DetailsVC.m */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		4C1DEF4B2BD088CE0036CC5D /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				4C1DEF442BCFE2E70036CC5D /* Task.h */,
+				4C1DEF452BCFE2E70036CC5D /* Task.m */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
 		4C4CB6ED2BCFB0E50043CD47 = {
 			isa = PBXGroup;
 			children = (
@@ -61,19 +107,52 @@
 		4C4CB6F82BCFB0E50043CD47 /* TODO List App */ = {
 			isa = PBXGroup;
 			children = (
+				4C1DEF4B2BD088CE0036CC5D /* Task */,
+				4C1DEF472BCFE79C0036CC5D /* Details */,
+				4C1DEF3F2BCFCC7B0036CC5D /* UITabBar */,
+				4C4CB7142BCFB2440043CD47 /* Done */,
+				4C4CB7132BCFB22E0043CD47 /* Progress */,
+				4C4CB7122BCFB2290043CD47 /* todo */,
 				4C4CB6F92BCFB0E50043CD47 /* AppDelegate.h */,
 				4C4CB6FA2BCFB0E50043CD47 /* AppDelegate.m */,
 				4C4CB6FC2BCFB0E50043CD47 /* SceneDelegate.h */,
 				4C4CB6FD2BCFB0E50043CD47 /* SceneDelegate.m */,
-				4C4CB6FF2BCFB0E50043CD47 /* ViewController.h */,
-				4C4CB7002BCFB0E50043CD47 /* ViewController.m */,
 				4C4CB7022BCFB0E50043CD47 /* Main.storyboard */,
 				4C4CB7052BCFB0E90043CD47 /* Assets.xcassets */,
 				4C4CB7072BCFB0E90043CD47 /* LaunchScreen.storyboard */,
 				4C4CB70A2BCFB0E90043CD47 /* Info.plist */,
 				4C4CB70B2BCFB0E90043CD47 /* main.m */,
+				4C1DEF532BD08C860036CC5D /* TabBarDelegate.h */,
+				4C1DEF522BD08C350036CC5D /* TabBarDelegate.m */,
 			);
 			path = "TODO List App";
+			sourceTree = "<group>";
+		};
+		4C4CB7122BCFB2290043CD47 /* todo */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CB6FF2BCFB0E50043CD47 /* ViewController.h */,
+				4C4CB7002BCFB0E50043CD47 /* ViewController.m */,
+			);
+			path = todo;
+			sourceTree = "<group>";
+		};
+		4C4CB7132BCFB22E0043CD47 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CB7212BCFB3030043CD47 /* ProgressVC.h */,
+				4C4CB7222BCFB3030043CD47 /* ProgressVC.m */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		4C4CB7142BCFB2440043CD47 /* Done */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CB71E2BCFB2F30043CD47 /* DoneVC.h */,
+				4C4CB71F2BCFB2F30043CD47 /* DoneVC.m */,
+			);
+			path = Done;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +171,9 @@
 			dependencies = (
 			);
 			name = "TODO List App";
+			packageProductDependencies = (
+				4C84C9CD2BDB8CBC0089F155 /* FLAnimatedImage */,
+			);
 			productName = "TODO List App";
 			productReference = 4C4CB6F62BCFB0E50043CD47 /* TODO List App.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +201,9 @@
 				Base,
 			);
 			mainGroup = 4C4CB6ED2BCFB0E50043CD47;
+			packageReferences = (
+				4C84C9CC2BDB8CBC0089F155 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+			);
 			productRefGroup = 4C4CB6F72BCFB0E50043CD47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,10 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1DEF4A2BCFE85F0036CC5D /* DetailsVC.m in Sources */,
 				4C4CB7012BCFB0E50043CD47 /* ViewController.m in Sources */,
 				4C4CB6FB2BCFB0E50043CD47 /* AppDelegate.m in Sources */,
 				4C4CB70C2BCFB0E90043CD47 /* main.m in Sources */,
+				4C4CB7202BCFB2F30043CD47 /* DoneVC.m in Sources */,
+				4C1DEF462BCFE2E70036CC5D /* Task.m in Sources */,
+				4C1DEF422BCFCCB10036CC5D /* TabBar.m in Sources */,
 				4C4CB6FE2BCFB0E50043CD47 /* SceneDelegate.m in Sources */,
+				4C4CB7232BCFB3030043CD47 /* ProgressVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +457,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C84C9CC2BDB8CBC0089F155 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C84C9CD2BDB8CBC0089F155 /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C84C9CC2BDB8CBC0089F155 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C4CB6EE2BCFB0E50043CD47 /* Project object */;
 }
